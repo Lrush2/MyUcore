@@ -18,4 +18,10 @@ quit #退出调试
 meld lab1 lab2 #比较两个文件夹的不同
 ```
 
+### GCC内联
+```shell
+gcc -S t4.c #生成汇编代码
+gcc -m32 -S t4.c #32位
+```
+
 
